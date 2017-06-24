@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pizza_uris">
+        <item>http://portugalresident.com/sites/default/files/field/image/pizza.jpg</item>
+        <item>https://media-cdn.tripadvisor.com/media/photo-s/03/df/ae/f0/aperitivos-bar-pizza.jpg</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQWcFlii2McZ7Hs-xu7-eFNaoimaV2IFtQ8PCfOdOJzEEIBEEj</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUBQD5BSCQLiLKM2VKInfoJX755h0FYqOYAZB2vOoYvjeB2dJ_</item>
+        <item>http://static.mama365.gr/covers/food/al_forno_pizza_fast_food_wedges_avgorou_ammochostos_kokkinochoria-3.jpg</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwOJEcG6hhgsaWAJydnrgHY4VNs_h93x8ZhqRVUTfL8rE6Uy9</item>
+        <item>http://www.leonis-pizzeria.com/wp-content/uploads/2015/04/Hot_pizza.jpg</item>
+        <item>https://www.collegemagazine.com/wp-content/uploads/2016/02/featurespizzaiamge.jpg</item>
+        <item>http://julesthincrust.com/assets/images/home_01.jpg</item>
+    </string-array>
+</resources>

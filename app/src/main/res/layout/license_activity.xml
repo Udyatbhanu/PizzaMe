@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.text.Html" />
+    </data>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/license_margin"
+                android:layout_marginRight="@dimen/license_margin"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/license_padding_bottom">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/libraries_used_header_text)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textSize="@dimen/license_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/libraries_used_text)}"
+                    android:textColor="@color/license_text_color" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/apache_license_header)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/apache_license)}"
+                    android:textColor="@color/license_text_color" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/leak_canary_license_header)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/leak_canary_license)}"
+                    android:textColor="@color/license_text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/rx_android_license_header)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/rx_android_license)}"
+                    android:textColor="@color/license_text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/eventbus_license_header)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/eventbus_license)}"
+                    android:textColor="@color/license_text_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingTop="@dimen/license_padding_header_top"
+                    android:text="@{Html.fromHtml(@string/retrofit_license_header)}"
+                    android:textColor="@color/license_text_header_color"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/license_padding_text_top"
+                    android:text="@{Html.fromHtml(@string/retrofit_license)}"
+                    android:textColor="@color/license_text_color" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</layout>

@@ -1,0 +1,35 @@
+<resources>
+
+    <dimen name="md_keylines">10dp</dimen>
+
+    <dimen name="recycler_view_padding">20dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="details_padding">30dp</dimen>
+    <dimen name="details_padding_medium">20dp</dimen>
+    <dimen name="btn_padding">20dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+
+
+    <dimen name="item_pizza_places_ll_padding_start">25dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="ll_height">120dp</dimen>
+    <dimen name="ll_padding_start">25dp</dimen>
+    <dimen name="ll_padding_bottom">20dp</dimen>
+
+
+
+    <dimen name="license_padding_header_top">20dp</dimen>
+    <dimen name="license_padding_text_top">16dp</dimen>
+    <dimen name="license_text_size">30sp</dimen>
+    <dimen name="license_padding_bottom">40dp</dimen>
+    <dimen name="license_margin">20dp</dimen>
+
+    <dimen name="collapsible_toolbar_height">300dp</dimen>
+    <dimen name="collapsible_toolbar_margin_end">64dp</dimen>
+    <dimen name="collapsible_toolbar_margin_start">48dp</dimen>
+
+    <dimen name="nested_scroll_overlap_top">69dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+
+</resources>

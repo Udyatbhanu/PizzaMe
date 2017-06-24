@@ -1,0 +1,105 @@
+ext {
+
+    //Version
+    supportVersion = '25.3.1'
+    supportConstraintVersion = '1.0.2'
+    retrofitVersion = '2.2.0'
+    commonsVersion = '3.0'
+    rxAndroidVersion = '2.0.1'
+    rxJavaVersion = '2.0.2'
+
+    googleVersion = '11.0.1'
+
+    leakcanaryVersion = '1.5.1'
+
+    glideVersion = '3.6.1'
+
+    junitVersion = '4.12'
+    mockitoVersion = '1.10.19'
+    robolectricVersion = '3.0'
+    greenrobotVersion = '3.0.0'
+
+//Packages
+    supportPackage = 'com.android.support'
+    retrofitPackage = 'com.squareup.retrofit2'
+
+    commonsPacakage = 'org.apache.commons'
+    greenrobotPackage = 'org.greenrobot'
+
+
+
+    leakcanaryPackage = 'com.squareup.leakcanary'
+
+
+    googlePackage = 'com.google.android.gms'
+
+
+    reactivePackage = 'io.reactivex.rxjava2'
+
+    glidePackage = 'com.github.bumptech.glide'
+    hdodenhofPackage = 'de.hdodenhof'
+
+
+    junitPackage = 'junit'
+    mockitoPackage = 'org.mockito'
+    robolectricPackage = 'org.robolectric'
+
+
+    supportDependencies = [
+
+
+            recyclerView: buildDependency(supportPackage, 'recyclerview-v7', supportVersion),
+            cardView    : buildDependency(supportPackage, 'cardview-v7', supportVersion),
+            design      : buildDependency(supportPackage, 'design', supportVersion),
+            appCompat   : buildDependency(supportPackage, 'appcompat-v7', supportVersion),
+    ]
+
+    commonsDependencies = [
+            commons: buildDependency(commonsPacakage, 'commons-lang3', commonsVersion)
+    ]
+
+    googleDependencies = [
+            gms: buildDependency(googlePackage, 'play-services-location', googleVersion)
+    ]
+
+    leakcanaryDependencies = [
+
+
+            debug  : buildDependency(leakcanaryPackage, 'leakcanary-android', leakcanaryVersion),
+            release: buildDependency(leakcanaryPackage, 'leakcanary-android-no-op', leakcanaryVersion),
+            test: buildDependency(leakcanaryPackage, 'leakcanary-android-no-op', leakcanaryVersion),
+    ]
+
+
+
+
+    retrofitDependencies = [
+
+            retrofit     : buildDependency(retrofitPackage, 'retrofit', retrofitVersion),
+            gson         : buildDependency(retrofitPackage, 'converter-gson', retrofitVersion),
+            rxAdapterJava: buildDependency(retrofitPackage, 'adapter-rxjava2', retrofitVersion),
+            jackson      : buildDependency(retrofitPackage, 'converter-jackson', retrofitVersion),
+    ]
+
+    rxDependencies = [
+
+            rxAndroid: buildDependency(reactivePackage, 'rxandroid', rxAndroidVersion),
+            rxJava   : buildDependency(reactivePackage, 'rxjava', rxJavaVersion)
+    ]
+
+    glide = buildDependency(glidePackage, 'glide', glideVersion)
+    greenrobot = buildDependency(greenrobotPackage, 'eventbus', greenrobotVersion)
+
+
+    testingDependencies = [
+
+            junit      : buildDependency(junitPackage, 'junit', junitVersion),
+            mockito    : buildDependency(mockitoPackage, 'mockito-core', mockitoVersion),
+            robolectric: buildDependency(robolectricPackage, 'robolectric', robolectricVersion),
+
+    ]
+}
+
+static String buildDependency(String pack, String dependency, String version) {
+    return "${pack}:${dependency}:${version}"
+}

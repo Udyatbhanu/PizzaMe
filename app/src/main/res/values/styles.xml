@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimary">@color/colorPrimaryDarkBlueGrey</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorAccent">@color/primary_dark_material_dark</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="Widget.PizzaPlacesDetail" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CollapsingTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    <style name="CollapsingTextAppearance.TitleSize" >
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+    <!--&lt;!&ndash;<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />&ndash;&gt;-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+    </style>
+
+    <style name="ListLayoutThemeRed">
+        <item name="android:background">@color/colorAccentRed</item>
+    </style>
+    <style name="ListLayoutThemePink">
+        <item name="android:background">@color/colorAccentPink</item>
+    </style>
+    <style name="ListLayoutThemePurple">
+        <item name="android:background">@color/colorAccentPurple</item>
+    </style>
+    <style name="ListLayoutThemeBlue">
+        <item name="android:background">@color/colorAccentBlue</item>
+    </style>
+    <style name="ListLayoutThemeOrange">
+        <item name="android:background">@color/colorAccentOrange</item>
+    </style>
+    <style name="ListLayoutThemeIndigo">
+        <item name="android:background">@color/colorAccentIndigo</item>
+    </style>
+    <style name="ListLayoutThemeBlueGrey">
+        <item name="android:background">@color/colorAccentBlueGrey</item>
+    </style>
+    <style name="ListLayoutThemeDeepOrange">
+        <item name="android:background">@color/colorAccentDeepOrange</item>
+    </style>
+    <style name="ListLayoutThemeGreen">
+        <item name="android:background">@color/colorAccentGreen</item>
+    </style>
+
+
+
+    <style name="ButtonThemeRed" parent="ButtonTheme">
+
+        <item name="android:background">@color/buttonColorRed</item>
+    </style>
+    <style name="ButtonThemePink" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorPink</item>
+    </style>
+    <style name="ButtonThemePurple" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorPurple</item>
+    </style>
+
+    <style name="ButtonThemeBlue" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorBlue</item>
+    </style>
+    <style name="ButtonThemeOrange" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorOrange</item>
+    </style>
+
+    <style name="ButtonThemeIndigo" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorIndigo</item>
+    </style>
+    <style name="ButtonThemeBlueGrey" parent="ButtonTheme">
+
+        <item name="android:background">@color/buttonColorBlueGrey</item>
+    </style>
+    <style name="ButtonThemeDeepOrange" parent="ButtonTheme">
+
+        <item name="android:background">@color/buttonColorDeepOrange</item>
+    </style>
+    <style name="ButtonThemeGreen" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorGreen</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+
+    </style>
+
+</resources>
